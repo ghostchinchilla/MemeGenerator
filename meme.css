@@ -1,0 +1,49 @@
+.meme-generator {
+    margin: 20px auto;
+    width: 80%; /* Adjust width as needed */
+    max-width: 500px; /* Limit maximum width */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.meme-generator label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.meme-generator input[type="file"],
+.meme-generator input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.meme-generator button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.meme-generator button:hover {
+    background-color: #0056b3;
+}
+
+#memeCanvas {
+    display: block;
+    width: 100%;
+    max-width: 100%; /* Make sure canvas fits container */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
